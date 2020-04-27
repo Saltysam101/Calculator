@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+button{
+    height: 50px;
+    width: 50px;
+}
+
+#calculator{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    gap: none;
+    height: 300px;
+    width: 200px;
+    border: 1px solid gray;
+}
+
+header{
+    grid-column: 1 / span 4;
+    grid-row: 1;
+}
+
+#clear{
+    grid-column: 1;
+    grid-row: 2;
+}
+
+#delete{
+    grid-column: 2;
+    grid-row: 2;
+}
+
+#percent{
+    grid-column: 3;
+    grid-row: 2;
+}
+
+#divide{
+    grid-column: 4;
+    grid-row: 2;
+}
+
+#seven{
+    grid-column: 1;
+    grid-row: 3;
+}
+
+#eight{
+    grid-column: 2;
+    grid-row: 3;
+}
+
+#nine{
+    grid-column: 3;
+    grid-row: 3;
+}
+
+#mulitply{
+    grid-column: 4;
+    grid-row: 3;
+}
+
+#four{
+    grid-column: 1;
+    grid-row: 4;
+}
+
+#five{
+    grid-column: 2;
+    grid-row: 4;
+}
+
+#six{
+    grid-column: 3;
+    grid-row: 4;
+}
+
+#minus{
+    grid-column: 4;
+    grid-row: 4;
+}
+
+#one{
+    grid-column: 1;
+    grid-row: 5;
+}
+
+#two{
+    grid-column: 2;
+    grid-row: 5;
+}
+
+#three{
+    grid-column: 3;
+    grid-row: 5;
+}
+
+#plus{
+    grid-column: 4;
+    grid-row: 5;
+}
+
+#decimal{
+    grid-column: 1;
+    grid-row: 6;
+}
+
+#zero{
+    grid-column: 2;
+    grid-row: 6;
+}
+
+#parenthesis{
+    grid-column: 3;
+    grid-row: 6;
+}
+
+#equal{
+    grid-column: 4;
+    grid-row: 6;
+}
