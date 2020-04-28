@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
 }
+body{
+    background: linear-gradient(to right ,rgb(255, 217, 0) , rgb(32, 32, 32));
+}
 
 
 #calculator{
@@ -11,7 +14,20 @@
     height: 100vh;
     justify-content: center;
     align-content: center;
-    border: 1px solid gray;
+    gap: none;
+    
+}
+#equal{
+    background-color: rgb(255, 217, 0);
+}
+#operation{
+    color:rgb(255, 217, 0);
+}
+button{
+    background-color: rgba(39, 44, 44, 0.8);
+    font-size: 1.25rem;
+    cursor: pointer;
+    color: white;
 }
 .span-two{
     grid-column: span 2;
@@ -30,3 +46,10 @@ header{
     word-break: break-all;
 }
 
+#previous-operand{
+    font-size: 1.5rem;
+}
+
+#current-operand{
+    font-size: 2.5rem;
+}
